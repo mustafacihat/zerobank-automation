@@ -9,9 +9,9 @@ Feature: Account Summary page
 
   Scenario: Verify account types of Account Summary Page
     Then Account Summary Page has these account types
-
-    Scenario: Verify the columns of Credit Accounts table
-      Then Credit Accounts table should have Account, Credit Card and Balance
+@smoke
+  Scenario: Verify the columns of Credit Accounts table
+    Then Credit Accounts table should have Account, Credit Card and Balance
 
 
 

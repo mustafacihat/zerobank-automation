@@ -13,7 +13,7 @@ Feature: Account Activity Page
 
   Scenario: Verify the options
     Then the options should be Savings, Checking, Loan, Credit Card, Brokerage
-
+@smoke
   Scenario: Verify the columns of Transactions table
     Then Transactions table should have Date, Description, Deposit, Withdrawal
 

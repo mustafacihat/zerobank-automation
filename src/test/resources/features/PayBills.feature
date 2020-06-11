@@ -24,7 +24,7 @@ Feature: Pay Bills Page
       |        | 2020-05-10 |
       | 500    |            |
       |        |            |
-
+@smoke
   Scenario Outline: Try to make a payment with invalid characters <amount> <date>
     Then the system not allow to enter invalid characters "<amount>" "<date>"
 

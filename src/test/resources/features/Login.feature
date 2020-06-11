@@ -4,7 +4,7 @@ Feature: Users should be able to login
   Background:
     Given the user is on the login page
 
-
+@smoke
   Scenario:login with  valid credentials
     When the user log in with "username" "password"
     Then the user should be able to login
